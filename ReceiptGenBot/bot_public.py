@@ -9,7 +9,7 @@ from lightbulb.ext import tasks
 from receiptgen import database, utils
 from aiohttp import web
 
-token = os.getenv("BOT_KEY")
+token = os.getenv("MTM1NDUzMjIwMzk4MzI3NDE1NQ.GuykUL.2f9DjbFaHLJd6IHud8j-gJ-r-w-kmUJB7NC8-c")
 
 bot = lightbulb.BotApp(token=token,
                        intents=hikari.Intents.GUILD_MEMBERS | hikari.Intents.MESSAGE_CONTENT | hikari.Intents.GUILDS | hikari.Intents.ALL_MESSAGES,
